@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      {
+        "name": "cordova-plugin-jumio-netverify",
+        "raw": "cordova-plugin-jumio-netverify",
+        "rawSpec": "",
+        "scope": null,
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/arne/Utvikling/jumiotest2"
+    ]
+  ],
+  "_from": "cordova-plugin-jumio-netverify@latest",
+  "_id": "cordova-plugin-jumio-netverify@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-jumio-netverify",
+  "_nodeVersion": "4.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-jumio-netverify-1.0.0.tgz_1478233581084_0.38537080911919475"
+  },
+  "_npmUser": {
+    "email": "tech@devtechweb.com",
+    "name": "devtechweb"
+  },
+  "_npmVersion": "2.15.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-jumio-netverify",
+    "raw": "cordova-plugin-jumio-netverify",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-jumio-netverify/-/cordova-plugin-jumio-netverify-1.0.0.tgz",
+  "_shasum": "9afa1dba6d41085102e561a947efad23db5e85fa",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-jumio-netverify",
+  "_where": "/Users/arne/Utvikling/jumiotest2",
+  "author": {
+    "name": "DPX"
+  },
+  "bugs": {
+    "url": "https://github.com/directpayintl/cordova-plugin-jumio-netverify/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-jumio-netverify",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova plugin to use Jumio Sdk",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "9afa1dba6d41085102e561a947efad23db5e85fa",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-jumio-netverify/-/cordova-plugin-jumio-netverify-1.0.0.tgz"
+  },
+  "gitHead": "c9d7c8eb42b7ba08cd054266522bdb144c295012",
+  "homepage": "https://github.com/directpayintl/cordova-plugin-jumio-netverify#readme",
+  "keywords": [
+    "cordova",
+    "plugin",
+    "android",
+    "ios",
+    "jumio",
+    "netverify"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "email": "tech@devtechweb.com",
+      "name": "devtechweb"
+    }
+  ],
+  "name": "cordova-plugin-jumio-netverify",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fintechinnovationas/cordova-plugin-jumio.git"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}
