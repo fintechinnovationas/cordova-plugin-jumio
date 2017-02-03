@@ -1,4 +1,4 @@
-package com.payfriendz.cordova.jumio;
+package com.phonegap.plugins.jumio;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
@@ -30,7 +30,7 @@ public class JumioMobileCordovaPlugin extends CordovaPlugin {
     private NetswipeSDK netswipeSDK;
 
     @Override
-    public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {        
+    public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 
         //NETVERIFY
         if("isSupportedPlatformForNetverify".equals(action)) {
@@ -144,7 +144,7 @@ public class JumioMobileCordovaPlugin extends CordovaPlugin {
                 }catch(JSONException ex){
                     this.callbackContext.error("Scan failed, but so did the error reading");
                 }
-                
+
             }
             this.netverifySDK.destroy();
         }
@@ -275,7 +275,7 @@ public class JumioMobileCordovaPlugin extends CordovaPlugin {
             JSONArray cardTypesStr =configuration.getJSONArray("supportedCreditCardTypes");
             for(int i = 0; i < cardTypesStr.length(); ++i) {
                 String cardTypeStr = cardTypesStr.getString(i);
-                creditCardTypes.add(getCreditCardTypeFromStr(cardTypeStr));                
+                creditCardTypes.add(getCreditCardTypeFromStr(cardTypeStr));
             }
             netswipeSDK.setSupportedCreditCardTypes(creditCardTypes);
         }

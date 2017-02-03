@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="com.payfriendz.cordova.jumio"
+        id="com.phonegap.plugins.jumio"
         version="0.1.0">
     <name>JumioMobile</name>
     <description>JumioSDK wrapper</description>
@@ -56,11 +56,11 @@
         <framework src="libiconv.dylib" />
     </platform>
 
-    <!-- android 
+
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="JumioMobile">
-                <param name="android-package" value="com.payfriendz.cordova.jumio.JumioMobileCordovaPlugin" />
+                <param name="android-package" value="com.phonegap.plugins.jumio.JumioMobileCordovaPlugin" />
             </feature>
         </config-file>
 
@@ -76,7 +76,7 @@
             <uses-permission android:name="android.permission.VIBRATE"/>
             <uses-feature android:name="android.hardware.camera" android:required="true"/>
             <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
-        
+
             <activity android:theme="@style/CustomTheme.Netverify" android:name="com.jumio.netverify.sdk.activity.NetverifyActivity" android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"/>
             <activity android:theme="@style/Theme.Netswipe" android:hardwareAccelerated="true" android:name="com.jumio.netswipe.sdk.activity.ScanCardActivity" android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"/>
         </config-file>
@@ -86,5 +86,5 @@
             -keep class netswipe.** { *; }
         </proguard-config>
 
-    </platform> -->
+    </platform>
 </plugin>
